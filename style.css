@@ -1,0 +1,86 @@
+
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                height: auto;
+                background-color: rgb(18, 66, 66);
+            }
+            
+            
+            .navber{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 5vh;
+                width: 100%;
+                background-color: blueviolet;
+                color: white;
+                box-shadow: 0px 2px 5px 5px gray;
+               
+            }
+            .navber .f_btn{
+                padding: 5px;
+                margin: 5px;
+                color: white;
+
+            }
+            .navber{
+                position:fixed ;
+                top:0px;
+            }
+            .container{
+                display: flex;
+                /*height: 96vh;*/
+                margin-top: 5vh;
+                
+                
+            }
+            .container .menu{
+                
+                
+                flex-basis: 20%;
+                
+                overflow-y: auto;
+               
+            }
+            .container .content{
+                flex-grow: 1;
+            }
+            .container .menu li{
+                padding: 10px;
+            }
+            .container .menu li:hover{
+                background-color: gray;
+                color: white;
+                border-radius: 0px 20px 20px 0px;
+                cursor: pointer;
+                
+            }
+            .content{
+                display: flex;
+                flex-flow: column wrap;
+                border: 1px solid;
+                height: 95vh;
+            }
+           
+            .content .item1{
+                display: inline-block;
+                margin: 10px;
+            }
+            .content .additem{
+                padding: 10px;
+                margin: 10px;
+            }
+            .footer{
+                height: 3vh;
+                width: 100%;
+                background-color: blueviolet;
+                position: fixed;
+                bottom:0px;
+                text-align: right;
+            }
+            
+
+        
